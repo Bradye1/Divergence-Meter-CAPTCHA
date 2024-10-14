@@ -1,7 +1,18 @@
-// LaurieWired 2024 Halloween Programming Challenge Entry:
-// The Divergence Meter CAPTCHA
+/*
+The Divergence Meter CAPTCHA:
+In order to baffle CERN's new AI system, we have developed a new CAPTCHA that takes advantage of a technology CERN does not yet have access to: The Divergence Meter.
+To complete the CAPTCHA, you must use the divergence meter to input how much the world line has changed after sending a D-Mail. Good luck lab member.
 
-// More info in the README
+Requirements:
+This entry uses p5.js, so you will need an internet connection in order to load the following:
+- The p5.js library
+- The image assets used (they are hosted on imgur)
+
+To start, open index.html in your web broswer of choice. and then click the "Send D-Mail" button beneath the canvas.
+To restart, refresh the web page.
+
+For more info, see the README.
+*/
 
 // Global variables
 const imageMap = new Map();
