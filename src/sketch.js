@@ -421,11 +421,7 @@ function drawIncorrectText() {
 
 // Helper function to draw text at the bottom of the canvas
 function drawTextAtBottom(textToDraw, textWidth) {
-    text(
-        textToDraw,
-        width / 2 - textWidth / 2,
-        height - (height - (imageStartLocY + imageCurrentHeight)) / 2
-    );
+    text(textToDraw, width / 2 - textWidth / 2, height - 50);
 }
 
 // Callback function for when the "Send D-Mail" button is clicked
