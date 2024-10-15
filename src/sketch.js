@@ -8,10 +8,16 @@ This entry uses p5.js, so you will need an internet connection in order to load 
 - The p5.js library
 - The image assets used (they are hosted on imgur)
 
+Usage:
 To start, open index.html in your web broswer of choice. and then click the "Send D-Mail" button beneath the canvas.
 To restart, refresh the web page.
 
-For more info, see the README.
+Troubleshooting:
+If images look cut off, please try refreshing the page. It should look similar to how example.png looks.
+If things still look cut off, please try zooming out in the page and refreshing again.
+Please avoid resizing the page while the project is running.
+
+For more info, see the README. Thank you!
 */
 
 // Global variables
@@ -434,12 +440,4 @@ function sendDmailButtonClicked() {
 function submitButtonClicked() {
     isAnswerSubmitted = true;
     isAnswerCorrect = inputField.value() === "0." + targetNumberDecimalStr;
-}
-
-// Called automatically when the window is resized. If this is called a lot
-// then the images get really stretched out, but better to handle it
-// this way it than not at all.
-function windowResized() {
-    resizeCanvas(windowHeight, windowHeight - 150);
-    resizeImages();
 }

@@ -15,14 +15,18 @@ This entry uses [p5.js](https://p5js.org/), so you will need an **internet conne
 -   The p5.js library
 -   The image assets used (they are hosted on imgur)
 
-As long as you have an internet connection, everything should be loaded automatically when `index.html` is opened.
+As long as you have an internet connection, everything should be loaded automatically when `src/index.html` is opened.
 
 # Usage
 
-After downloading the repo, simply open `index.html` in your web browser of choice. From there, click the "Send D-Mail" button and follow the instructions on the screen.
+After downloading the repo, simply open `src/index.html` in your web browser of choice. From there, click the "Send D-Mail" button and follow the instructions on the screen.
 
 To restart, just refresh the web page.
 
-Alternatively instead of downloading this repo, you can run the project via the p5.js Web Editor here: https://editor.p5js.org/Bradye1/sketches/Y_vJrJW3p
+# Troubleshooting:
+
+-   If images look cut off, please try refreshing the page. It should look similar to how example.png looks.
+-   If things still look cut off, please try zooming out in the page and refreshing again.
+-   Please avoid resizing the page while the project is running.
 
 Thanks for checking out my entry!
