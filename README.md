@@ -23,7 +23,7 @@ After downloading the repo, simply open `src/index.html` in your web browser of 
 
 To restart, just refresh the web page.
 
-# Troubleshooting:
+# Troubleshooting
 
 -   If images look cut off, please try refreshing the page. It should look similar to how example.png looks.
 -   If things still look cut off, please try zooming out in the page and refreshing again.
