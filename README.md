@@ -25,7 +25,7 @@ To restart, just refresh the web page.
 
 # Troubleshooting
 
--   If images look cut off, please try refreshing the page. It should look similar to how example.png looks.
+-   If images look cut off, please try refreshing the page. It should look similar to how `example.png` looks.
 -   If things still look cut off, please try zooming out in the page and refreshing again.
 -   Please avoid resizing the page while the project is running.
 
