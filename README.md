@@ -19,7 +19,8 @@ As long as you have an internet connection, everything should be loaded automati
 
 # Usage
 
-After downloading the repo, simply open `src/index.html` in your web browser of choice. From there, click the "Send D-Mail" button and follow the instructions on the screen.
+After downloading the repo, simply open `src/index.html` in your web browser of choice. If images look cut off at all, please see the Troubleshooting section and also reference `example.png` to see how things should look.
+From there, click the "Send D-Mail" button and follow the instructions on the screen.
 
 To restart, just refresh the web page.
 
